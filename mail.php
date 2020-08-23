@@ -34,7 +34,7 @@ if (!$mail->send())
 }
 else
 {
-	echo "E-Mail enviado";
+	header('location: respuesta.php');
 }
 }
 ?>
