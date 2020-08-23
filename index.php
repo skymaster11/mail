@@ -17,7 +17,7 @@ $mail->SMTPDebug = 2;
 $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
-$mail->SMTPAuth = false;
+$mail->SMTPAuth = true;
 $mail->Username = "sitiosocm@gmail.com";
 $mail->Password = "Correo12345";
 $mail->setFrom('sitiosocm@gmail.com', 'Picha Mama');
