@@ -13,9 +13,9 @@ Enable SMTP debugging
 1 = client messages
 2 = client and server messages
 */
-$mail->SMTPDebug = 0;
+$mail->SMTPDebug = 2;
 $mail->Host = 'smtp.gmail.com';
-$mail->Port = 587;
+$mail->Port = 465;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = false;
 $mail->Username = "sitiosocm@gmail.com";
