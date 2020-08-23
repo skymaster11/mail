@@ -13,9 +13,10 @@ Enable SMTP debugging
 1 = client messages
 2 = client and server messages
 */
+$mail->Host       = "mail.console.clever-cloud.com"; 
 $mail->SMTPDebug = 0;
 $mail->Host = 'smtp.live.com';
-$mail->Port = 25;
+$mail->Port = 465;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 $mail->Username = "rwyseguridad@hotmail.com";
