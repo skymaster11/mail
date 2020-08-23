@@ -15,7 +15,7 @@ Enable SMTP debugging
 */
 $mail->SMTPDebug = 2;
 $mail->Host = 'smtp.gmail.com';
-$mail->Port = 465;
+$mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = false;
 $mail->Username = "sitiosocm@gmail.com";
