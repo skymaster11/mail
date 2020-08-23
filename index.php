@@ -15,7 +15,7 @@ Enable SMTP debugging
 */
 $mail->SMTPDebug = 0;
 $mail->Host = 'smtp.live.com';
-$mail->Port = 587;
+$mail->Port = 465;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 $mail->Username = "rwyseguridad@hotmail.com";
