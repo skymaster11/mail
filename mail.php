@@ -19,10 +19,10 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
-$mail->Username = "rwyseguridad@hotmail.com";
+$mail->Username = "sotiosocm@gmail.com";
 $mail->Password = "Correo12345";
-$mail->setFrom('rwyseguridad@hotmail.com', 'Picha Mama');
-$mail->addAddress('d.josue@hotmail.es', 'Panocha');
+$mail->setFrom('sotiosocm@gmail.com', 'Rica Y David');
+$mail->addAddress('d.josue@hotmail.es', 'Prueba');
 $mail->Subject = 'Rica la carne';
 $mail->Body = "Sirvio la picha";
 $mail->CharSet = 'UTF-8'; // Con esto ya funcionan los acentos
