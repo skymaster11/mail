@@ -13,7 +13,7 @@ Enable SMTP debugging
 1 = client messages
 2 = client and server messages
 */
-$mail->SMTPDebug = 2;
+$mail->SMTPDebug = 0;
 $mail->Host = 'smtp.live.com';
 $mail->Port = 25;
 $mail->SMTPSecure = 'tls';
