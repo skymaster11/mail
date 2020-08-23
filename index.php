@@ -14,8 +14,8 @@ Enable SMTP debugging
 2 = client and server messages
 */
 $mail->SMTPDebug = 0;
-$mail->Host = 'smtp.live.com';
-$mail->Port = 25;
+$mail->Host = 'smtp.office365.com';
+$mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = false;
 $mail->Username = "rwyseguridad@hotmail.com";
