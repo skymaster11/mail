@@ -14,13 +14,13 @@ Enable SMTP debugging
 2 = client and server messages
 */
 $mail->SMTPDebug = 0;
-$mail->Host = 'smtp.office365.com';
+$mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = false;
-$mail->Username = "rwyseguridad@hotmail.com";
+$mail->Username = "sitiosocm@gmail.com";
 $mail->Password = "Correo12345";
-$mail->setFrom('rwyseguridad@hotmail.com', 'Picha Mama');
+$mail->setFrom('sitiosocm@gmail.com', 'Picha Mama');
 $mail->addAddress('d.josue@hotmail.es', 'Panocha');
 $mail->Subject = 'Rica la carne';
 $mail->Body = "Sirvio la picha";
