@@ -17,7 +17,7 @@ $mail->SMTPDebug = 2;
 $mail->Host = 'smtp.live.com';
 $mail->Port = 25;
 $mail->SMTPSecure = 'tls';
-$mail->SMTPAuth = true;
+$mail->SMTPAuth = false;
 $mail->Username = "rwyseguridad@hotmail.com";
 $mail->Password = "Correo12345";
 $mail->setFrom('rwyseguridad@hotmail.com', 'Picha Mama');
